@@ -1,3 +1,27 @@
+*{
+   margin:0;
+   padding:0;
+   text-decoration:none;
+   list-style:none;
+   box-sizing: border-box;
+}
+
+.contenedor{
+   width:90%;
+   max-width:1200px;
+   margin:auto;
+}
+
 .fila{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+}
+
+.bg-header{
+   background: rgba(0, 0, 255, .5);
+}
+
+.nav{
    display:flex;
 }
