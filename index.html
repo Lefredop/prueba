@@ -2,50 +2,115 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Blog de música</title>
-   <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de música</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 
 <body>
-   <header class="bg-header">
-      <div class="contenedor">
-         <div class="fila">
-            <h1>Blog de Música</h1>
-            <nav>
-               <ul class="nav">
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Nosotros</a></li>
-                  <li><a href="#">Contacto</a></li>
-               </ul>
-            </nav>
-         </div>
-      </div>
-   </header>
+    <header class="bg-header">
+        <div class="contenedor">
+            <div class="fila">
+                <h1>Blog de Música</h1>
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
    <section class="principal">
       <div class="color"></div>
       <div class="contenedor">
          <div class="titulo">
             <h1>Nuestra música</h1>
-            <button class="btn-link">Contactenos</button>
+            <a href="#formulario" class="btn-link">Contactenos</a>
          </div>
       </div>
    </section>
    <article>
       <div class="contenedor">
+          <h1>Talleres de música</h1>
          <div class="fila">
             <div class="contenido-servicio">
-               <img src="img" alt="">
+               <img src="img/ins1.jpg" alt="ins">
+               <div class="texto">
+                   <h3>Instrumento</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                   <a href="#" class="btn-link">Ir al taller</a>
+               </div>
             </div>
+            <div class="contenido-servicio">
+                <img src="img/ins2.jpg" alt="ins">
+                <div class="texto">
+                    <h3>Instrumento</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn-link">Ir al taller</a>
+                </div>
+             </div>
+             <div class="contenido-servicio">
+                <img src="img/ins3.jpg" alt="ins">
+                <div class="texto">
+                    <h3>Instrumento</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn-link">Ir al taller</a>
+                </div>
+             </div>
+             <div class="contenido-servicio">
+                <img src="img/ins4.jpg" alt="ins">
+                <div class="texto">
+                    <h3>Instrumento</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn-link">Ir al taller</a>
+                </div>
+             </div>
+             <div class="contenido-servicio">
+                <img src="img/ins5.jpg" alt="ins">
+                <div class="texto">
+                    <h3>Instrumento</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn-link">Ir al taller</a>
+                </div>
+             </div>
+             <div class="contenido-servicio">
+                <img src="img/ins6.jpg" alt="ins">
+                <div class="texto">
+                    <h3>Instrumento</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn-link">Ir al taller</a>
+                </div>
+             </div>
          </div>
       </div>
    </article>
-   <footer>
-      <div class="contenedor">
-      </div>
-   </footer>
+    <footer id="formulario">
+        <div class="contenedorform">
+            <h1>Contactenos: </h1>
+            <h2>Rellene este formulario para que hablemos</h2>
+            <form class="forma">
+                <div class="inp">
+                    <input id="nombre" type="text" placeholder="Nombre">
+                </div>
+                <div class="inp">
+                    <input id="email" type="email" placeholder="E-mail">
+                </div>
+                <div class="inp">
+                    <input id="telefono" type="tel" placeholder="Telefono">
+                </div>
+                <div class="inp">
+                    <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+                <div>
+                    <input class="btn-enviar" type="submit" name="Enviar" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
