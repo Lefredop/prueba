@@ -1,27 +1,54 @@
-*{
-   margin:0;
-   padding:0;
-   text-decoration:none;
-   list-style:none;
-   box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-.contenedor{
-   width:90%;
-   max-width:1200px;
-   margin:auto;
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.fila{
-   display:flex;
-   justify-content:space-between;
-   align-items:center;
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.bg-header{
-   background: rgba(0, 0, 255, .5);
+.bg-header {
+    background: rgba(0, 0, 255, .5);
 }
 
-.nav{
-   display:flex;
+.nav {
+    display: flex;
+}
+
+::placeholder {
+    color: gray;
+    letter-spacing: .5rem;
+}
+
+
+/*agregando basura de braulio*/
+
+footer {
+    background-image: url('./img/music.jpg');
+}
+
+.contenedorform {
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.forma {
+    margin-top: 20px;
+}
+
+.inp {
+    display: block;
+    margin-bottom: 10px;
 }
