@@ -50,7 +50,7 @@ header{
 }
 
 .principal{
-   background-image:url(../img/bg-header.jpg);
+   background-image:url(./img/bg-header.jpg);
    background-position:center center;
    position: relative;
 }
@@ -87,6 +87,7 @@ header a:hover{
    background-color:rgba(255, 166, 0, .7);
    transition:all .3s ease-out;
 }
+
 header li{
    margin-right: 2rem;
    
