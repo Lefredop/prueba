@@ -25,3 +25,10 @@
 .nav{
    display:flex;
 }
+
+
+
+::placeholder{
+   color:gray;
+   letter-spacing: .5rem;
+}
