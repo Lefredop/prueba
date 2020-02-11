@@ -108,16 +108,16 @@
             <h2>Rellene este formulario para que hablemos</h2>
             <form action="formulario.php" method="POST" class="forma">
                 <div class="inp">
-                    <input name="nombre" id="nombre" type="text" placeholder="Nombre">
+                    <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
                 </div>
                 <div class="inp">
-                    <input name="email" id="email" type="email" placeholder="E-mail">
+                    <input name="email" id="email" type="email" placeholder="E-mail" required>
                 </div>
                 <div class="inp">
-                    <input name="telefono" id="telefono" type="tel" placeholder="Telefono">
+                    <input name="telefono" id="telefono" type="number" placeholder="Telefono" required>
                 </div>
                 <div class="inp">
-                    <input name="mensaje" id="mensaje" type="text" placeholder="Mensaje">
+                    <textarea name="mensaje" id="mensaje" cols="40" rows="4" type="text" placeholder="Mensaje" required></textarea>
                 </div>
                 <div>
                     <input class="btn-enviar" type="submit" name="Enviar" value="Enviar">

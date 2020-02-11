@@ -32,9 +32,11 @@
 
 footer {
     background-image: url('./img/music.jpg');
-    background-position: center;
+    background-position: center center;
+    position: relative;
     background-repeat: round;
     padding: 70px;
+    margin: auto;
 }
 
 .contenedorform {
@@ -73,7 +75,8 @@ h2 {
 #email,
 #telefono {
     font-family: sans-serif;
-    height: 34px;
+    /*height: 34px;*/
+    width: 500px;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
