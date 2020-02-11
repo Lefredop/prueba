@@ -114,7 +114,7 @@ h2 {
     background-color: rgba(103, 212, 76, 0.3);
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -123,12 +123,15 @@ h2 {
     background-position: center;
     margin: auto;
     position: relative;
+    z-index: 1;
 }
 
 .nosotros {
     padding: 100px;
     text-align: center;
-    z-index: 2;
+    z-index: 3;
+    color: whitesmoke;
+    position: relative;
 }
 
 
