@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .contenedor {
     width: 90%;
     max-width: 1200px;
@@ -23,8 +27,9 @@
 }
 
 ::placeholder {
-    color: gray;
-    letter-spacing: .5rem;
+    color: #111;
+    font-weight: normal;
+    letter-spacing: .4rem;
 }
 
 
@@ -33,8 +38,8 @@
 footer {
     background-image: url('./img/music.jpg');
     background-position: center center;
-    position: relative;
-    background-repeat: round;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 70px;
     margin: auto;
 }
@@ -51,6 +56,11 @@ h2 {
     z-index: 2;
     text-transform: uppercase;
     text-align: center;
+    color: white
+}
+
+.contenedorform h1 {
+    margin-bottom: 2rem;
 }
 
 .forma {
@@ -75,13 +85,18 @@ h2 {
 #email,
 #telefono {
     font-family: sans-serif;
-    width: 500px;
+    max-width: 600px;
+    width: 100%;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #555;
+    color: #111;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.inp #mensaje {
+    height: 7rem;
 }
 
 .btn-enviar {
@@ -110,7 +125,7 @@ h2 {
 }
 
 .nos .col {
-    background-color: rgba(209, 194, 60, 0.4);
+    background-color: rgba(103, 212, 76, 0.6);
     width: 100%;
     height: 100%;
     z-index: 2;
@@ -119,16 +134,23 @@ h2 {
 
 .nos {
     background-image: url(./img/fondo-nosotros.jpg);
-    background-position: center;
+    background-position: center center;
+    background-size: cover;
     margin: auto;
     position: relative;
     z-index: 1;
+    background-repeat: no-repeat;
 }
 
 .nosotros {
-    padding: 100px;
+    padding: 4rem 0;
+    width: 80%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
     text-align: center;
     z-index: 3;
+    color: whitesmoke;
     position: relative;
 }
 
@@ -137,8 +159,6 @@ h2 {
 }
 
 .nosotros p {
-    padding-left: 200px;
-    padding-right: 200px;
     color: whitesmoke;
     font-size: 18px;
 }
@@ -295,7 +315,7 @@ article .contenido-servicio {
     z-index: 2;
     box-sizing: content-box;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 article .contenido-servicio img {
@@ -340,6 +360,10 @@ article .texto {
     }
     header li {
         margin-bottom: 1rem;
-        margin-right: 2rem !important;
+        margin-right: 0rem !important;
+    }
+    .nosotros {
+        width: 100%;
+        padding: 2.5rem 2rem;
     }
 }
