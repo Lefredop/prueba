@@ -47,7 +47,7 @@ footer {
 
 .contenedorform h1,
 h2 {
-    color: rgb(123, 204, 196);
+    color: rgb(131, 221, 212);
     z-index: 2;
     text-transform: uppercase;
     text-align: center;
@@ -75,7 +75,6 @@ h2 {
 #email,
 #telefono {
     font-family: sans-serif;
-    /*height: 34px;*/
     width: 500px;
     padding: 6px 12px;
     font-size: 14px;
@@ -111,7 +110,7 @@ h2 {
 }
 
 .nos .col {
-    background-color: rgba(103, 212, 76, 0.3);
+    background-color: rgba(209, 194, 60, 0.4);
     width: 100%;
     height: 100%;
     z-index: 2;
@@ -130,8 +129,18 @@ h2 {
     padding: 100px;
     text-align: center;
     z-index: 3;
-    color: whitesmoke;
     position: relative;
+}
+
+.nosotros h1 {
+    color: rgba(0, 0, 0, 1.0)
+}
+
+.nosotros p {
+    padding-left: 200px;
+    padding-right: 200px;
+    color: whitesmoke;
+    font-size: 18px;
 }
 
 
