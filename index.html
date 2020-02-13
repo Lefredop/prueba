@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de música</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="fonts.css">
 </head>
 
 <body>
@@ -16,15 +17,50 @@
                 <nav>
                     <ul class="nav">
                         <li><a href="#">Inicio</a></li>
+                        <li><a href="#taller">Talleres</a></li>
                         <li><a href="#nosotros">Nosotros</a></li>
                         <li><a href="#formulario">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-        </div>
     </header>
-
+    <!-- Nueva seccion-->
+    <section>
+        <div class="main">
+            <div class="slides">
+                <img src="./imgSlideShow/music1.jpg" alt="musica">
+                <img src="./imgSlideShow/music2.jpg" alt="musica">
+                <img src="./imgSlideShow/music3.jpg" alt="musica">
+            </div>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="./js/jquery.slides.js"></script>
+    <script>
+        $(function() {
+            $(".slides").slidesjs({
+                play: {
+                    active: true,
+                    // [boolean] Generate the play and stop buttons.
+                    // You cannot use your own buttons. Sorry.
+                    effect: "slide",
+                    // [string] Can be either "slide" or "fade".
+                    interval: 3000,
+                    // [number] Time spent on each slide in milliseconds.
+                    auto: true,
+                    // [boolean] Start playing the slideshow on load.
+                    swap: true,
+                    // [boolean] show/hide stop and play buttons
+                    pauseOnHover: false,
+                    // [boolean] pause a playing slideshow on hover
+                    restartDelay: 2500
+                        // [number] restart delay on inactive slideshow
+                }
+            });
+        });
+    </script>
+    <!--termina nueva seccion-->
     <section class="principal">
         <div class="color"></div>
         <div class="contenedor">
@@ -34,8 +70,7 @@
             </div>
         </div>
     </section>
-    <article class="article">
-
+    <article class="article" id="taller">
         <div class="contenedor">
             <h1>Talleres de música</h1>
             <div class="fila">
